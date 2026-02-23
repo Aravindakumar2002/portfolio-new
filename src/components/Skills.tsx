@@ -11,17 +11,17 @@ const skillCategories = [
     {
         title: "Frontend",
         icon: <Layers className="text-blue-400 w-7 h-7" />,
-        skills: ["React.js", "Next.js", "React Native", "Angular.js", "TypeScript", "JavaScript", "HTML", "CSS", "SCSS", "Tailwind CSS"],
+        skills: ["React", "Next", "React Native", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "SCSS", "Tailwind CSS"],
     },
     {
         title: "Backend",
         icon: <Terminal className="text-emerald-400 w-7 h-7" />,
-        skills: ["Node.js", "NestJS", "Express.js", "REST API", "JWT Authentication"],
+        skills: ["Node", "Nest", "Express", "REST API", "JWT Authentication"],
     },
     {
         title: "Database",
         icon: <Database className="text-orange-400 w-7 h-7" />,
-        skills: ["MySQL", "PostgreSQL"],
+        skills: ["MySQL", "PostgreSQL", "MongoDB"],
     },
     {
         title: "Cloud & Services",

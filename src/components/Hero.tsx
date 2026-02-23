@@ -36,7 +36,7 @@ export const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.1 }}
                         className="text-[clamp(1rem,2.5vw,1.25rem)] lg:text-[clamp(1.25rem,2vw,1.5rem)] text-muted-foreground mb-10 max-w-2xl 2xl:max-w-4xl leading-relaxed"
                     >
-                        I&apos;m a <span className="text-foreground font-semibold">Full Stack Developer</span> specialized in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on building accessible, human-centered products using <span className="text-brand-blue">React</span>, <span className="text-brand-purple">NestJS</span>, and <span className="text-brand-emerald">PostgreSQL</span>.
+                        I&apos;m a <span className="text-foreground font-semibold">Full Stack Developer</span> specialized in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on building accessible, human-centered products using <span className="text-brand-blue">React</span>, <span className="text-brand-purple">Nest</span>, and <span className="text-brand-emerald">PostgreSQL</span>.
                     </motion.p>
 
                     <motion.div

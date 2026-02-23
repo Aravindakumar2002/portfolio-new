@@ -31,7 +31,7 @@ export const EducationAndMore = () => {
                             <div className="absolute top-0 right-0 p-12 opacity-[0.03] group-hover:opacity-10 transition-opacity">
                                 <GraduationCap size={120} />
                             </div>
-                            <h4 className="text-2xl sm:text-3xl font-black mb-3 leading-tight group-hover:text-brand-blue transition-colors">Bachelor of Computer Application (BCA)</h4>
+                            <h4 className="text-2xl sm:text-3xl font-black mb-3 leading-tight group-hover:text-brand-blue transition-colors">Bachelor of Computer Applications (BCA)</h4>
                             <p className="text-xl md:text-2xl text-brand-blue font-bold mb-6">MDT Hindu College, Tirunelveli</p>
                             <div className="flex items-center gap-2">
                                 <span className="px-6 py-2 bg-white/5 border border-white/10 rounded-full text-sm sm:text-base font-bold text-muted-foreground">
@@ -89,7 +89,7 @@ export const EducationAndMore = () => {
                                 </div>
                             </div>
                             <div className="flex flex-wrap gap-4">
-                                {["Tamil", "English", "Technical Proficient"].map((lang) => (
+                                {["Tamil", "English", "Technical Proficiency"].map((lang) => (
                                     <span key={lang} className="px-8 py-3 glass rounded-2xl text-base md:text-lg font-bold border border-white/10 hover:border-brand-emerald/40 hover:text-brand-emerald transition-all cursor-default">
                                         {lang}
                                     </span>

@@ -18,8 +18,8 @@ export const Contact = () => {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            // Formspree AJAX submission (requires /f/ even for emails)
-            const response = await fetch("https://formspree.io/f/aravind.mahesh2305@gmail.com", {
+            // Formspree AJAX submission to direct email
+            const response = await fetch("https://formspree.io/f/xeelpkkz", {
                 method: "POST",
                 body: JSON.stringify(data),
                 headers: {
@@ -121,12 +121,15 @@ export const Contact = () => {
                                         <span className="font-bold">Message sent successfully!</span>
                                     </motion.div>
                                 ) : status === "unverified" ? (
-                                    <motion.div key="unverified" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="flex flex-col gap-3 p-6 bg-amber-500/20 text-amber-400 rounded-2xl border border-amber-500/30">
+                                    <motion.div key="unverified" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="flex flex-col gap-3 p-6 bg-amber-500/10 text-amber-500 rounded-2xl border border-amber-500/20">
                                         <div className="flex items-center gap-3">
-                                            <AlertCircle size={24} />
-                                            <span className="font-bold">Check your email to verify!</span>
+                                            <AlertCircle size={24} className="animate-pulse" />
+                                            <span className="font-bold text-lg">Action Required: Verify your email</span>
                                         </div>
-                                        <p className="text-sm">Formspree requires you to click an activation link in your inbox for the first message.</p>
+                                        <p className="text-sm opacity-90">
+                                            Formspree has sent a verification link to <strong className="text-amber-600 underline">aravind.mahesh2305@gmail.com</strong>.
+                                            Please click that link to activate this form. You only need to do this once!
+                                        </p>
                                     </motion.div>
                                 ) : (
                                     <Button key="submit-btn" disabled={status === "loading"} type="submit" size="lg" className="w-full rounded-2xl gap-3 h-16 text-xl font-black shadow-2xl shadow-primary/20 relative z-10 overflow-hidden group/btn disabled:opacity-70">

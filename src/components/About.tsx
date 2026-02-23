@@ -26,7 +26,7 @@ export const About = () => {
                         </h3>
                         <div className="space-y-6 text-[clamp(1rem,2vw,1.125rem)] text-muted-foreground leading-relaxed">
                             <p>
-                                Full-Stack Developer with 2+ years of experience building scalable web and mobile applications. Proficient in React, React Native, Node.js, and NestJS, with strong expertise in modern UI development, REST APIs, and database management using MySQL and PostgreSQL.
+                                Full-Stack Developer with 2+ years of experience building scalable web and mobile applications. Proficient in React, React Native, Node.js, and Nest, with strong expertise in modern UI development, REST APIs, and database management using MySQL and PostgreSQL.
                             </p>
                             <p>
                                 Experienced in performance optimization, Redux state management, and cloud services like AWS and Vercel. Skilled in AI-assisted development using ChatGPT, Cursor AI, and Claude.

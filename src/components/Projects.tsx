@@ -14,7 +14,7 @@ const projects = [
         image: "/hrms.png",
         tech: [
             { name: "React", icon: <Globe size={12} /> },
-            { name: "Node.js", icon: <Server size={12} /> },
+            { name: "Node", icon: <Server size={12} /> },
             { name: "Microservices", icon: <Code2 size={12} /> }
         ],
         live: "#",
@@ -27,7 +27,7 @@ const projects = [
         tech: [
             { name: "React", icon: <Globe size={12} /> },
             { name: "React Native", icon: <Smartphone size={12} /> },
-            { name: "Node.js", icon: <Server size={12} /> }
+            { name: "Node", icon: <Server size={12} /> }
         ],
         live: "#",
         github: "https://github.com/Aravindakumar2002",
@@ -38,7 +38,7 @@ const projects = [
         image: "/project1.png",
         tech: [
             { name: "React Native", icon: <Smartphone size={12} /> },
-            { name: "NestJS", icon: <Server size={12} /> },
+            { name: "Nest", icon: <Server size={12} /> },
             { name: "OpenAI", icon: <Code2 size={12} /> }
         ],
         live: "#",
@@ -50,7 +50,7 @@ const projects = [
         image: "/project2.png",
         tech: [
             { name: "React", icon: <Globe size={12} /> },
-            { name: "Node.js", icon: <Server size={12} /> },
+            { name: "Node", icon: <Server size={12} /> },
             { name: "MySQL", icon: <Code2 size={12} /> }
         ],
         live: "#",

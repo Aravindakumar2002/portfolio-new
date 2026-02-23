@@ -22,7 +22,7 @@ const experiences = [
         duration: "Mar 2023 – Feb 2025",
         points: [
             "Built scalable EduTech apps using React and React Native",
-            "Developed APIs using NestJS and MySQL",
+            "Developed APIs using Nest and MySQL",
             "Integrated AWS S3 for secure media storage",
             "Improved UI performance and UX",
             "Used Redux for state management",
